@@ -1,0 +1,14 @@
+.navigationBar {
+    position: sticky;
+    background: #ffffff;
+}
+
+.navigationBarVisible {
+    top: 0;
+    transition: all 1s ease;
+}
+
+.navigationBarHidden {
+    top: -150%;
+    transition: all 1s ease;
+}

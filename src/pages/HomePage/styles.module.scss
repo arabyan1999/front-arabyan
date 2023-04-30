@@ -1,0 +1,57 @@
+.home {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 48px;
+    flex-wrap: wrap;
+    margin: 3rem auto;
+}
+
+.item {
+    max-width: 360px;
+}
+
+.category {
+    color: #EB0028;
+    margin: 1rem 0;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.title {
+    margin-bottom: 1rem;
+}
+
+.dateContainer {
+    font-size: 12px;
+    margin-bottom: 1rem;
+    span {
+        margin-right: 5px;
+    }
+}
+
+.niek {
+    font-weight: 500;
+}
+
+.dateAndViews {
+    color: #9B9B9B;
+}
+
+.content {
+    color: #929292;
+}
+
+.linkContainer {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+}
+
+.link:hover {
+    color: #929292;
+}
